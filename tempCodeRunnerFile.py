@@ -1,5 +1,5 @@
 import numpy as np
-var=np.array([1,2,3,5,4,7,8,2,6,2])
-x=np.where(var==2)
-print(x)
-print()
+var=np.matrix([[2,3],[6,7]])
+var1=np.matrix([[1,2],[4,5]])
+print(var * var1)
+print(var.dot(var1))
